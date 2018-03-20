@@ -36,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
                 subjectForSSD.addObserver(observer3);
                 subjectFor3d.setMsg("3d num :5452");
                 subjectForSSD.setMsg("ssd num :7848");
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+
+                    }
+                });
             }
         });
     }
